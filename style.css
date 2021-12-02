@@ -1,0 +1,74 @@
+
+/*Estilos generales*/
+body  {
+    background-color: #fadea7;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 80px;
+    -webkit-text-stroke: 2px black;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+
+
+label {
+    color: black;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/*Segun clase*/
+.dorsal {
+    color: black;
+}
+.coche {
+    position: relative;
+    width: 150px;
+    height: 100px;
+/*display: none;*/
+}
+
+
+.coche {
+    margin-left: 0px;
+}
+
+/*Segun ID*/
+
+#botonResultados {
+    display: none;
+
+}
+
+
+#botonReset {
+    display: none;
+}
+
+#pista {
+    background-color: grey;
+
+}
+#numCoches {
+    width: 75px;
+}

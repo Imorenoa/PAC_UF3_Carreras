@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Mis estilos -->
+  <link rel="stylesheet" href="style.css" />
+<!--  Se añaden fuentes de google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+
+  <title>Autos locos</title>
+
+</head>
+
+<body>
+
+<h1>Autos locos</h1>
+
+<label for="numCoches">Elige el numero de participantes:</label>
+
+<select name="numCoches" id="numCoches">
+  <option value = "0" selected disabled>Selecciona el numero de participantes</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+</select>
+
+<div id="pista"></div>
+
+<button id="botonIniciar" type="button">Iniciar</button>
+<button id="botonReset" type="button" >Reiniciar</button>
+<button id="botonResultados" type="button" >Resultados</button>
+
+</body>
+<!-- Mi escript -->
+<script src="index.js"></script>
+
+</html>
